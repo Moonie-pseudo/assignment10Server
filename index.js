@@ -130,5 +130,5 @@ app.get('/home', (req, res) => res.send('I am home'));
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+  console.log(`Server is listening on port ${port}`);
 });
