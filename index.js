@@ -126,7 +126,7 @@ run().catch(console.dir);
 
 // ================= Basic Routes =================
 app.get('/', (req, res) => res.send('HELLO WORLD!'));
-app.get('/home', (req, res) => res.send('This i home'));
+app.get('/home', (req, res) => res.send('This is home'));
 
 // Start server
 app.listen(port, () => {
